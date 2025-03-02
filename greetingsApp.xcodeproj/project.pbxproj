@@ -12,6 +12,7 @@
 		8EA9705F2D7465790003FE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA9705E2D7465790003FE5E /* Assets.xcassets */; };
 		8EA970622D7465790003FE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA970612D7465790003FE5E /* Preview Assets.xcassets */; };
 		8EEC7C452D74761F007A72C8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C442D74761F007A72C8 /* TextView.swift */; };
+		8EEC7C472D7479B0007A72C8 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8EA9705E2D7465790003FE5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA970612D7465790003FE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EEC7C442D74761F007A72C8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				8EA9705A2D7465780003FE5E /* greetingsAppApp.swift */,
 				8EA9705C2D7465780003FE5E /* ContentView.swift */,
+				8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */,
 				8EEC7C442D74761F007A72C8 /* TextView.swift */,
 				8EA9705E2D7465790003FE5E /* Assets.xcassets */,
 				8EA970602D7465790003FE5E /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EEC7C472D7479B0007A72C8 /* DataItemModel.swift in Sources */,
 				8EEC7C452D74761F007A72C8 /* TextView.swift in Sources */,
 				8EA9705D2D7465780003FE5E /* ContentView.swift in Sources */,
 				8EA9705B2D7465780003FE5E /* greetingsAppApp.swift in Sources */,

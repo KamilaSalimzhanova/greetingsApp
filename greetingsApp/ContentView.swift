@@ -8,27 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let message: [DataItemModel] = [
+        .init(text: "Hello there", color: .green),
+        .init(text: "Welcome to swift programming!", color: .orange),
+        .init(text: "Are you ready to,", color: .yellow),
+        .init(text: "start exploring?", color: .red),
+        .init(text: "Boom.", color: .purple)
+    ]
+    
     var body: some View {
-        //ZStack {
-//            LinearGradient(
-//                colors: [
-//                    Color(red: 230 / 255.0, green: 240 / 255.0, blue: 255 / 255.0),
-//                    Color(red: 200 / 255.0, green: 230 / 255.0, blue: 255 / 255.0),
-//                    Color(red: 210 / 255.0, green: 250 / 255.0, blue: 235 / 255.0)
-//                ],
-//                startPoint: .topLeading,
-//                endPoint: .bottomTrailing
-//            )
-//            .ignoresSafeArea()
         VStack(alignment: .leading) {
-            TextView(text: "Hello there", color: .green)
-            TextView(text: "Welcome to swift programming!", color: .orange)
-            TextView(text: "Are you ready to,", color: .yellow)
-            TextView(text: "start exploring", color: .red)
-            TextView(text: "Boom.", color: .purple)
+            VStack(alignment: .leading, spacing: 0) {
+                Text("Greetings")
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                Text("Exploring iOS programming")
+                    .font(.headline)
+                    .fontWeight(.thin)
+            }
+            Spacer()
+            // if doest conforms to Identifieble must be id: \.property
+            ForEach(message, id: \.id) { dataItem in
+                TextView(text: dataItem.text, color: dataItem.color)
+            }
+            Spacer()
+            Spacer()
         }
         .padding()
-        //}
     }
 }
 
