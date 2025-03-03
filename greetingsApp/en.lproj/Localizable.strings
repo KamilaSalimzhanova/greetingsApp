@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  greetingsApp
+
+  Created by kamila on 03.03.2025.
+  
+*/
+//  NSLocalizedString("tabBarItemTrackers", comment: "First text displayed on tab bar stage"
+"Greetings" = "Greetings";
+"Exploring iOS programming" = "Exploring iOS programming";
+"Learning how to bake" = "Learning how to bake";
+"Programming recipes" = "Programming recipes";
+"Hello there" = "Hello there"; 

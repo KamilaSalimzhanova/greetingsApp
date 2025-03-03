@@ -8,40 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    let message: [DataItemModel] = [
-        .init(text: "Hello there", color: .green),
-        .init(text: "Welcome to swift programming!", color: .orange),
-        .init(text: "Are you ready to,", color: .yellow),
-        .init(text: "start exploring?", color: .red),
-        .init(text: "Boom.", color: .purple)
-    ]
-    
+    @Binding var language: String
+    @Binding var layoutDirection: String
     var body: some View {
-        VStack(alignment: .leading) {
-            VStack(alignment: .leading, spacing: 0) {
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                Text("Exploring iOS programming")
-                    .font(.headline)
-                    .fontWeight(.thin)
+        NavigationStack {
+            ZStack {
+                BackgroundView()
+                VStack(alignment: .leading) {
+                    TitleView()
+                    Spacer()
+                    MessagesView()
+                    Spacer()
+                    Spacer()
+                }
+                .padding()
             }
-            Spacer()
-            // if doest conforms to Identifieble must be id: \.property
-            ForEach(message, id: \.id) { dataItem in
-                TextView(text: dataItem.text, color: dataItem.color)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    LanguageOptionsView(language: $language, layoutDirection: $layoutDirection)
+                }
             }
-            Spacer()
-            Spacer()
         }
-        .padding()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(language: .constant("en"), layoutDirection: .constant(LEFT_TO_RIGHT))
+            //.preferredColorScheme(.dark)
     }
 }
 

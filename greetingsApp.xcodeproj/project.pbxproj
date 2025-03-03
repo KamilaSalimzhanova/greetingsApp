@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E94A7DE2D7632F200CFC7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E94A7DD2D7632F200CFC7D1 /* LaunchScreen.storyboard */; };
+		8E94A7E32D76346B00CFC7D1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E94A7E52D76346B00CFC7D1 /* Localizable.strings */; };
+		8E94A7E82D763C4100CFC7D1 /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E94A7E72D763C4100CFC7D1 /* GreetingsTip.swift */; };
 		8EA9705B2D7465780003FE5E /* greetingsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9705A2D7465780003FE5E /* greetingsAppApp.swift */; };
 		8EA9705D2D7465780003FE5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA9705C2D7465780003FE5E /* ContentView.swift */; };
 		8EA9705F2D7465790003FE5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA9705E2D7465790003FE5E /* Assets.xcassets */; };
 		8EA970622D7465790003FE5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA970612D7465790003FE5E /* Preview Assets.xcassets */; };
 		8EEC7C452D74761F007A72C8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C442D74761F007A72C8 /* TextView.swift */; };
 		8EEC7C472D7479B0007A72C8 /* DataItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */; };
+		8EEC7C492D7487EB007A72C8 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C482D7487EB007A72C8 /* TitleView.swift */; };
+		8EEC7C4B2D748819007A72C8 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C4A2D748819007A72C8 /* MessagesView.swift */; };
+		8EEC7C4D2D748904007A72C8 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C4C2D748904007A72C8 /* BackgroundView.swift */; };
+		8EEC7C4F2D749301007A72C8 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C4E2D749301007A72C8 /* LanguageOptionsView.swift */; };
+		8EEC7C512D749356007A72C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEC7C502D749356007A72C8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E94A7DD2D7632F200CFC7D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E94A7E42D76346B00CFC7D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E94A7E62D76351600CFC7D1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8E94A7E72D763C4100CFC7D1 /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 		8EA970572D7465780003FE5E /* greetingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greetingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA9705A2D7465780003FE5E /* greetingsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greetingsAppApp.swift; sourceTree = "<group>"; };
 		8EA9705C2D7465780003FE5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +35,11 @@
 		8EA970612D7465790003FE5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EEC7C442D74761F007A72C8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemModel.swift; sourceTree = "<group>"; };
+		8EEC7C482D7487EB007A72C8 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		8EEC7C4A2D748819007A72C8 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		8EEC7C4C2D748904007A72C8 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8EEC7C4E2D749301007A72C8 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		8EEC7C502D749356007A72C8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +73,15 @@
 			isa = PBXGroup;
 			children = (
 				8EA9705A2D7465780003FE5E /* greetingsAppApp.swift */,
+				8E94A7E72D763C4100CFC7D1 /* GreetingsTip.swift */,
 				8EA9705C2D7465780003FE5E /* ContentView.swift */,
+				8E94A7E52D76346B00CFC7D1 /* Localizable.strings */,
+				8E94A7DD2D7632F200CFC7D1 /* LaunchScreen.storyboard */,
+				8EEC7C4C2D748904007A72C8 /* BackgroundView.swift */,
+				8EEC7C4A2D748819007A72C8 /* MessagesView.swift */,
+				8EEC7C482D7487EB007A72C8 /* TitleView.swift */,
+				8EEC7C4E2D749301007A72C8 /* LanguageOptionsView.swift */,
+				8EEC7C502D749356007A72C8 /* Constants.swift */,
 				8EEC7C462D7479B0007A72C8 /* DataItemModel.swift */,
 				8EEC7C442D74761F007A72C8 /* TextView.swift */,
 				8EA9705E2D7465790003FE5E /* Assets.xcassets */,
@@ -115,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 8EA9704E2D7465780003FE5E;
 			productRefGroup = 8EA970582D7465780003FE5E /* Products */;
@@ -131,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E94A7DE2D7632F200CFC7D1 /* LaunchScreen.storyboard in Resources */,
+				8E94A7E32D76346B00CFC7D1 /* Localizable.strings in Resources */,
 				8EA970622D7465790003FE5E /* Preview Assets.xcassets in Resources */,
 				8EA9705F2D7465790003FE5E /* Assets.xcassets in Resources */,
 			);
@@ -146,17 +174,36 @@
 				8EEC7C472D7479B0007A72C8 /* DataItemModel.swift in Sources */,
 				8EEC7C452D74761F007A72C8 /* TextView.swift in Sources */,
 				8EA9705D2D7465780003FE5E /* ContentView.swift in Sources */,
+				8EEC7C4D2D748904007A72C8 /* BackgroundView.swift in Sources */,
 				8EA9705B2D7465780003FE5E /* greetingsAppApp.swift in Sources */,
+				8EEC7C4B2D748819007A72C8 /* MessagesView.swift in Sources */,
+				8E94A7E82D763C4100CFC7D1 /* GreetingsTip.swift in Sources */,
+				8EEC7C492D7487EB007A72C8 /* TitleView.swift in Sources */,
+				8EEC7C4F2D749301007A72C8 /* LanguageOptionsView.swift in Sources */,
+				8EEC7C512D749356007A72C8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E94A7E52D76346B00CFC7D1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E94A7E42D76346B00CFC7D1 /* en */,
+				8E94A7E62D76351600CFC7D1 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8EA970632D7465790003FE5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -217,6 +264,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
